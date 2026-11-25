@@ -167,81 +167,81 @@ document.addEventListener("DOMContentLoaded", () => {
   const projectSpecsDatabase = {
     legend: {
       title: "Legend.ng",
-      category: "Telecommunications & Digital Infrastructure",
+      category: "Telecommunications & Digital Services",
       url: "https://www.legend.ng",
       overview:
-        "Legend is an Abuja-based telecommunications conglomerate delivering enterprise-grade fiber broadband, digital television, VoIP telephony, and unified digital wallet solutions (LegendPay) across residential and commercial sectors.",
+        "Legend is Abuja's flagship fiber internet and digital entertainment provider. I was brought in to build their self-service subscriber portal and automated billing pipelines, giving thousands of residential and enterprise clients an effortless way to track bandwidth, renew plans, and manage accounts with zero downtime headaches.",
       solutions: [
-        "Architected scalable subscriber portal facilitating automated broadband subscription lifecycle management.",
-        "Integrated dual-redundancy payment gateway webhooks ensuring zero-loss transaction reconciliation during high-concurrency billing windows.",
-        "Engineered optimized bandwidth utilization telemetry dashboard reducing customer support ticket latency by over 35%."
+        "Set up automated subscription renewal workflows with dual-redundancy payment gateway webhooks so auto-renewals never miss a beat.",
+        "Built clean, real-time bandwidth telemetry graphs that help subscribers see their usage clearly and cut support tickets by 35%.",
+        "Tuned PostgreSQL query pipelines and Redis caching to keep account lookups instantaneous during peak evening billing hours."
       ],
       techStack: ["Node.js", "REST APIs", "PostgreSQL", "Redis Caching", "Webhook Workers", "Microservices"]
     },
     ballershq: {
       title: "BallersHQ",
-      category: "Sports Tech & Arena Marketplace",
+      category: "Sports Tech & Community Marketplace",
       url: "https://www.ballershq.com",
       overview:
-        "BallersHQ is an on-demand sports tech marketplace enabling recreational athletes and sports organizations to book arenas, coordinate match sessions, and resolve split payments across teams in real time.",
+        "BallersHQ was born to fix the chaos of organizing recreational football and court games in Nigeria. Instead of endless WhatsApp back-and-forth and chasing teammates for cash, players can instantly find open turf pitches, book a slot, and chip in together.",
       solutions: [
-        "Built conflict-free booking scheduler with distributed lock management to prevent double-booking of physical courts.",
-        "Designed and implemented the 'Squad Chip-In' micro-escrow workflow allowing multiple players to contribute fractional payments toward a shared booking.",
-        "Implemented dynamic cryptographic QR ticket generation verified in offline mode by venue field managers."
+        "Engineered a real-time reservation engine with distributed locks so two squads never accidentally book the same pitch at the same hour.",
+        "Designed the 'Squad Chip-In' split payment flow, letting team captains create a private booking link where everyone pays their share into escrow.",
+        "Created dynamic, tamper-proof QR tickets that venue managers can scan at the entrance even if the local network is patchy."
       ],
-      techStack: ["JavaScript", "TypeScript", "Node.js", "WebSockets", "Payment Split API", "Dynamic QR"]
+      techStack: ["JavaScript", "TypeScript", "Node.js", "WebSockets", "Squad Chip-In", "Dynamic QR"]
     },
     everythingproperty: {
       title: "EverythingProperty.ng",
-      category: "PropTech & Property Marketplace",
+      category: "PropTech & Search Marketplace",
       url: "https://www.everythingproperty.ng",
       overview:
-        "A nationwide property discovery engine designed to streamline residential rentals, commercial purchases, and land acquisition across Nigeria with verified realtor vetting.",
+        "Finding a genuine rental or property in Nigeria shouldn't be an extreme sport. I architected EverythingProperty's core search engine and agent lead router to connect house hunters directly with verified listings and trusted agents without the usual headaches.",
       solutions: [
-        "Developed compound geospatial querying and indexing to deliver sub-50ms search response times across large property datasets.",
-        "Constructed automated agent lead-dispatch engine ensuring buyer inquiries are instantly routed and tracked with delivery confirmation.",
-        "Optimized client-side media rendering and lazy loading pipelines, achieving a 90+ mobile Google PageSpeed score."
+        "Implemented compound geospatial queries and indexing to deliver neighborhood property searches in under 50 milliseconds.",
+        "Created an automated lead dispatch system that instantly notifies verified agents when a qualified buyer makes an inquiry.",
+        "Applied client-side image optimization and lazy-loading so browsing image-heavy property galleries doesn't eat up mobile data."
       ],
-      techStack: ["Full-Stack Web", "Relational Database", "Spatial Indexing", "Lead Engine", "Cloud Media Storage"]
+      techStack: ["Full-Stack Web", "Relational Database", "Geospatial Indexing", "Lead Engine", "Cloud Media Storage"]
     },
     eprealestate: {
       title: "EP Real Estate",
       category: "Luxury Property Brokerage & Advisory",
       url: "https://www.eprealestate.ng",
       overview:
-        "EP Real Estate represents luxury and institutional real estate advisory across Abuja and Lagos, managing premier residential portfolios and strategic commercial transactions.",
+        "EP Real Estate is a luxury brokerage firm handling high-value residential and commercial properties in Abuja and Lagos. They needed an elegant, lightning-fast digital portfolio that matches the prestige of their clientele with buttery-smooth mobile navigation.",
       solutions: [
-        "Engineered a high-touch, privacy-conscious digital listing portfolio tailored for high-net-worth investors.",
-        "Built responsive client consultation booking funnels integrated with CRM pipelines for prompt client qualification.",
-        "Applied image compression and adaptive delivery techniques to showcase high-resolution architectural photography without degrading mobile bandwidth."
+        "Designed a sleek, distraction-free portfolio interface with buttery-smooth mobile navigation and private VIP inquiry funnels.",
+        "Optimized heavy architectural photos with responsive picture sets and modern compression, keeping mobile page load times under 1 second.",
+        "Connected direct consultation booking forms with their CRM backend for immediate client qualification."
       ],
-      techStack: ["Modern Semantic HTML/CSS", "Vanilla JS", "Performance Optimization", "Secure CRM Webhooks"]
+      techStack: ["Performance Engineering", "Responsive Design", "Media Optimization", "CRM Webhooks"]
     },
     gstplace: {
       title: "GSTplace",
-      category: "Multi-Vertical Commerce & Asset Brokerage",
+      category: "Multi-Vertical Commerce & Brokerage",
       url: "https://www.gstplace.com",
       overview:
-        "GSTplace is a diversified commerce and brokerage enterprise headquartered at Silverbird Entertainment Centre, Abuja, housing retail consumer divisions, an art gallery, media studio services, and secure pawn brokerage.",
+        "Located at Silverbird Entertainment Centre in Abuja, GSTplace is a multi-vertical commercial marketplace that brings together retail electronics, an authentic art gallery, and a regulated pawn brokerage under one umbrella.",
       solutions: [
-        "Architected unified inventory schema supporting distinct operational models (instant retail checkout vs. pawn evaluation holds).",
-        "Created an audited valuation workflow for secondary asset collateral intake with strict legal and compliance logging.",
-        "Integrated multi-channel payment reconciliation enabling consistent in-store and online ledger synchronizations."
+        "Architected a unified inventory database capable of handling standard e-commerce carts alongside collateral pawn holds with different lifecycle rules.",
+        "Built transparent valuation intake workflows with tamper-proof audit trails for secondary goods and artwork.",
+        "Unified payment tracking across multiple channels so in-store and online ledgers stay perfectly in sync."
       ],
       techStack: ["E-Commerce Engine", "PostgreSQL", "Inventory State Machine", "Secure Checkout Rails"]
     },
     fixfoundpro: {
       title: "FixFoundPro",
-      category: "On-Demand Technician & Maintenance Marketplace",
+      category: "Facilities & Construction Management",
       url: "https://www.fixfoundpro.com",
       overview:
-        "FixFoundPro coordinates professional facilities maintenance and on-demand equipment repairs, pairing vetted technicians with property owners and enterprises requiring certified service.",
+        "FixFoundPro takes the uncertainty out of facility repairs and construction management. It helps homeowners and property managers quickly book vetted technicians, review photo proof of work, and release payments safely in escrow.",
       solutions: [
-        "Devised proximity-weighted dispatch algorithm matching work orders with closest qualified technicians.",
-        "Built verifiable work-order state machine requiring pre-job photo inspection, customer milestone sign-off, and release of service escrow.",
-        "Engineered dispute resolution workflow with real-time audit logging for warranty tracking."
+        "Devised proximity-smart technician dispatch that matches open maintenance requests with the closest qualified specialist.",
+        "Built a milestone-based escrow workflow requiring pre-job and post-job photo verification before releasing funds.",
+        "Created a clean dispute-resolution tracking interface that keeps both customers and service pros accountable and protected."
       ],
-      techStack: ["Modular JavaScript", "Dispatch Logic", "State Engine", "Notification Pipeline", "RESTful Services"]
+      techStack: ["Smart Dispatch", "Escrow Workflows", "State Machines", "RESTful APIs", "Modular JavaScript"]
     }
   };
 
